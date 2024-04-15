@@ -27,8 +27,8 @@ a {
     justify-content: space-between;
     flex-shrink: 0;
     align-items: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 170px;
+    margin-right: 170px;
     padding: 10px;
 }
 
@@ -162,5 +162,22 @@ a {
 /*-------------------------------------------*/
 
 /*-------------------Quote-------------------*/
+.quotesection{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    align-items: center;
+    padding: 100px;
+}
 
+.quotebody{
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.author{
+    padding-top: 5px;
+    padding-left: 225px;
+    flex-wrap: nowrap;
+}
 /*-------------------------------------------*/
