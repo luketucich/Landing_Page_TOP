@@ -117,9 +117,32 @@ a {
 /*-------------------------------------------*/
 
 /*------------Random Information------------*/
-.funfacts {
+.two {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #cfedf7;
+}
+
+
+.funfacttitle {
+    margin-top: 40px;
+    color: #025852;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.cards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+
+}
+.subimage {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #555;
+    border-radius: 10px;
 }
