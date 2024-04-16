@@ -85,19 +85,6 @@ a {
     width: 450px;
 }
 
-.signup {
-    background-color: #025852;
-    border: none;
-    color: #F9FAF8;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 35px;
-    padding-right: 35px;   
-    border-radius: 8px;
-    font-size: 18px;
-    font-weight: bold;
-}
-
 .cat {
     margin-left: 45px;
     margin-top: 50px;
@@ -126,7 +113,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #cfedf7;
+    background: radial-gradient(#cfedf7, #6fa9ba);
     padding-bottom: 100px;
 }
 
@@ -165,19 +152,90 @@ a {
 .quotesection{
     display: flex;
     flex-direction: column;
-    background-color: lightgray;
+    /* background: radial-gradient(#fecc92, #ffa845); */
+    background: radial-gradient(#f6c58e, #d7872b);
     align-items: center;
+    justify-content: center;
     padding: 100px;
 }
 
 .quotebody{
     flex-wrap: wrap;
-    width: 400px;
+    width: 800px;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f1100;
 }
 
 .author{
-    padding-top: 5px;
-    padding-left: 225px;
-    flex-wrap: nowrap;
+    color: #1f1100;
+    margin-left: 560px;
+    font-size: 22px;
+}
+/*-------------------------------------------*/
+
+
+
+/*--------------Call to Action---------------*/
+.calltoaction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#cfedf7, #6fa9ba);
+    padding-bottom: 100px;
+}
+
+.bluebox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: radial-gradient(#05766e, #025852);
+    margin-top: 90px;
+    border-radius: 10px;
+    gap: 170px;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.cta_title {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cta_desc {
+    color: #F9FAF8
+}
+
+.signup,.signup2 {
+    background-color: #025852;
+    color: #F9FAF8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;   
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: #F9FAF8;
+}
+/*-------------------------------------------*/
+
+
+/*------------------Footer-------------------*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: radial-gradient(#05766e, #025852);
+}
+
+.footertext{
+    font-size: small;
+    color: #F9FAF8;
 }
 /*-------------------------------------------*/
